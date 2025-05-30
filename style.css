@@ -1,0 +1,214 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    font-size: 18px; /* Збільшуємо базовий розмір тексту для всього сайту */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin:  auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+header {
+    background-color: #e6e6fa;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px; /* Збільшуємо розмір заголовка */
+    color: #4b0082;
+}
+
+.main-content {
+    padding: 20px 0;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start; /* Вирівнюємо елементи по верхньому краю */
+    margin: 20px;
+}
+
+.text-content {
+    flex: 1;
+    min-width: 300px;
+}
+
+.text-content h2 {
+    font-size: 24px; /* Збільшуємо розмір заголовка */
+    color: #4b0082;
+}
+
+.text-content p {
+    line-height: 1.6;
+    font-size: 18px; /* Збільшуємо розмір тексту параграфа */
+}
+
+.image-content {
+    flex: 1;
+    min-width: 300px;
+    text-align: right; /* Зображення вирівнюється справа */
+}
+
+.image-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.gallery h1 {
+    margin: 0 0 20px 0;
+    font-size: 28px; /* Збільшуємо розмір заголовка */
+    color: #4b0082;
+    width: 100%;
+    text-align: center;
+}
+
+.gallery h2 {
+    margin: 0 0 20px 0;
+    color: #4b0082;
+    text-align: center;
+    font-size: 22px; /* Збільшуємо розмір заголовка */
+}
+
+main h1 {
+    margin: 0 0 20px 0;
+    font-size: 28px;
+    color: #4b0082;
+    width: 100%;
+    text-align: center;
+}
+
+.gallery img {
+    width: 200px; /* Збільшуємо розмір зображень у галереї */
+    height: 200px;
+    object-fit: cover;
+}
+
+.gallery img:hover {
+    transform: scale(1.10);
+    transition: 0.5s linear;
+    object-fit: cover;
+    margin-bottom: 10px ;
+}
+
+.tovar {
+    text-align: center;
+    width: 200px;
+}
+
+.reviews {
+    padding: 20px 0;
+}
+
+.reviews h2 {
+    font-size: 24px; /* Збільшуємо розмір заголовка */
+    color: #4b0082;
+    text-align: center;
+}
+
+.review {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.review:hover {
+    background-color: #4b0082;
+    color: #ddd;
+    transition: 0.2s linear;
+}
+
+.review img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.review p {
+    font-size: 18px; /* Збільшуємо розмір тексту відгуків */
+}
+.review p:hover {
+    color:white; /* Збільшуємо розмір тексту відгуків */
+}
+
+.map-section {
+    padding: 20px 0;
+}
+
+.map-section h2 {
+    font-size: 24px; /* Збільшуємо розмір заголовка */
+    color: #4b0082;
+    text-align: center;
+}
+
+.address {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.address p {
+    font-size: 18px; /* Збільшуємо розмір тексту адреси */
+}
+
+footer {
+    background-color: #e6e6fa;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 16px; /* Збільшуємо розмір тексту футера */
+}
+
+footer a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #4b0082;
+    font-size: 16px; /* Збільшуємо розмір тексту посилань */
+}
+
+nav a {
+    background-color: lightblue;
+    color: aliceblue;
+    padding: 4px;
+    border-radius: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px; /* Збільшуємо розмір тексту навігації */
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    box-shadow: 3px 5px 10px 0 darkblue;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-image: linear-gradient(white, navy);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav {
+    margin-top: 15px;
+}
